@@ -22,6 +22,9 @@ Even though I improved basic project a bit, there is more that can be done. Here
 * generate an additional shade of colors already displayed on the page
 * add opacity slider for each displayed color (and display it in rgba code)
 
+## [LiveDemo] 
+(https://wondrous-dragon-97cde4.netlify.app)
+
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
 
