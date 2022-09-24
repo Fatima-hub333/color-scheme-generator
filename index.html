@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property = "og:title" content = "Color Scheme Generator">
+  <meta property = "og:description" content = "A simple color scheme generator webapp">
+  <link rel="icon" href="favicon.png">
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@300;500&display=swap" rel="stylesheet">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Color Scheme Generator</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <input type="color" class="eye-dropper" id="eye-dropper">
+      <select id="mode" class="mode">
+        <option value="monochrome">Monochrome</option>
+        <option value="monochrome-dark">Monochrome-Dark</option>
+        <option value="monochrome-light">Monochrome-Light</option>
+        <option value="analogic">Analogic</option>
+        <option value="complement">Complement</option>
+        <option value="analogic-complement">Analogic-Complement</option>
+        <option value="triad">Triad</option>
+        <option value="quad">Quad</option>
+      </select>
+      <button id="get-color" class="get-color relative">Get Color Scheme</button>
+    </header>
+
+    <main></main>
+    <footer></footer>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
