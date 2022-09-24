@@ -1,0 +1,31 @@
+{
+  "name": "color-scheme-generator",
+  "version": "1.0.0",
+  "description": "The repository contains simple color scheme generator project from Scrimba's \"The Frontend Developer Career Path\". <br> To see the app please visit: https://maypaw.github.io/scrimba-solo-project_color-scheme-generator/\r ### What's a \"solo\" project?\r A \"solo\" project on Scrimba is a kind of task that students complete by themselves, with basic reqirements <br> and Figma design provided. The teachers always encourage students to make improvements to the project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatima-hub333/color-scheme-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatima-hub333/color-scheme-generator/issues"
+  },
+  "homepage": "https://github.com/Fatima-hub333/color-scheme-generator#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
